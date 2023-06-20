@@ -1,0 +1,22 @@
+.numero, .operador{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.numero{
+    background-color: #252525;
+    color: white;
+}
+
+.operador{
+    background-color: #fdd947;
+    color: #252525;
+}
+
+.numero:hover, .operador:hover{
+    background-color: #d5d5d3;
+}
